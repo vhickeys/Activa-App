@@ -8,7 +8,7 @@ class ViewServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        view()->composer('*', function ($view) {
+        view()->composer(['layouts.partials.header', 'client.index'], function ($view) {
 
             $homeData = activaApi('home', [
                 'per_category' => 8,

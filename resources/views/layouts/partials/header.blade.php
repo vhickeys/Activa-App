@@ -3,7 +3,7 @@
             <div class="container position-relative">
                 <div class="campaign-content">
                     <div class="campaign-countdown"></div>
-                    <p>Choose the plan that fits your lifestyle <a href="#">Get Your Offer</a></p>
+                    <p>Choose the plan that fits your lifestyle <a href="javascript:void(0)">Get Your Offer</a></p>
                 </div>
             </div>
             <button class="remove-campaign"><i class="fal fa-times"></i></button>
@@ -15,10 +15,12 @@
                     <div class="col-lg-2 col-sm-3 col-5">
                         <div class="header-brand">
                             <a href="{{ route('homepage') }}" class="logo logo-dark">
-                                <img src="{{ asset('client/assets/images/logo/logo.png') }}" alt="Site Logo">
+                                <h4 class="fw-bold">ACTIVA</h4>
+                                {{-- <img src="{{ asset('client/assets/images/logo/logo.png') }}" alt="Site Logo"> --}}
                             </a>
                             <a href="{{ route('homepage') }}" class="logo logo-light">
-                                <img src="{{ asset('client/assets/images/logo/logo-light.png') }}" alt="Site Logo">
+                                <h4 class="fw-bold">ACTIVA</h4>
+                                {{-- <img src="{{ asset('client/assets/images/logo/logo-light.png') }}" alt="Site Logo"> --}}
                             </a>
                         </div>
                     </div>
@@ -38,9 +40,9 @@
                                     USD
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">USD</a></li>
-                                    <li><a class="dropdown-item" href="#">AUD</a></li>
-                                    <li><a class="dropdown-item" href="#">EUR</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">USD</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">AUD</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">EUR</a></li>
                                 </ul>
                             </div>
                             <div class="dropdown">
@@ -49,9 +51,9 @@
                                     EN
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">EN</a></li>
-                                    <li><a class="dropdown-item" href="#">ARB</a></li>
-                                    <li><a class="dropdown-item" href="#">SPN</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">EN</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">ARB</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">SPN</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -66,11 +68,11 @@
             <div class="container">
                 <div class="header-navbar">
                     <div class="header-nav-department">
-                        
+
                         <aside class="header-department">
-                            <button class="header-department-text department-title">
+                            <button class="header-department-text department-title bg-primary">
                                 <span class="icon"><i class="fal fa-bars"></i></span>
-                                <span class="text">Categories</span>
+                                <span class="text">Our Services</span>
                             </button>
 
                             <nav class="department-nav-menu">
@@ -80,8 +82,7 @@
 
                                     @forelse ($categories as $category)
                                         <li>
-                                            <a href="{{ url('/category/' . $category['slug']) }}"
-                                                class="nav-link has-megamenu">
+                                            <a href="javascript:void(0)" class="nav-link has-megamenu">
 
                                                 <span class="menu-icon">
                                                     <img src="{{ $apiUrl . '/storage/activa/facility-categories/' . ($category['image'] ?? 'placeholder.png') }}"
@@ -107,7 +108,7 @@
                                                                 @forelse ($category['lifestyle_provider_facilities'] as $facility)
                                                                     <li>
                                                                         <a
-                                                                            href="{{ url('/facility/' . $facility['slug']) }}">
+                                                                            href="{{ route('facility.details', ['slug' => $facility['slug']]) }}">
                                                                             {{ $facility['facility_name'] }}
 
                                                                             @if (!empty($facility['location']))
@@ -143,7 +144,7 @@
                                                                 @foreach (array_slice($images, 0, 4) as $image)
                                                                     <div class="item-product">
                                                                         <a
-                                                                            href="{{ url('/facility/' . $firstFacility['slug']) }}">
+                                                                            href="{{ route('facility.details', ['slug' => $firstFacility['slug']]) }}">
                                                                             <img src="{{ $apiUrl . '/storage/lifestyle-provider/facilities/media/' . $image }}"
                                                                                 alt="Activa">
                                                                         </a>
@@ -151,7 +152,7 @@
                                                                 @endforeach
                                                             </div>
 
-                                                            <a href="{{ url('/category/' . $category['slug']) }}"
+                                                            <a href="{{ route('facility.details', ['slug' => $facility['slug']]) }}"
                                                                 class="axil-btn btn-bg-primary">
                                                                 View All {{ $category['name'] }}
                                                             </a>
@@ -179,21 +180,16 @@
                             <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                             <div class="mobile-nav-brand">
                                 <a href="{{ route('homepage') }}" class="logo">
-                                    <img src="{{ asset('client/assets/images/logo/logo.png') }}" alt="Site Logo">
+                                    <h4 class="fw-bold">ACTIVA</h4>
+                                    {{-- <img src="{{ asset('client/assets/images/logo/logo.png') }}" alt="Site Logo"> --}}
                                 </a>
                             </div>
                             <ul class="mainmenu">
                                 <li><a href="{{ route('homepage') }}"
                                         class="{{ request()->routeIs('homepage') ? 'active' : '' }}">Home</a></li>
-                                <li><a href="#">About</a></li>
-
-                                <li class="menu-item-has-children">
-                                    <a href="#">Our Services</a>
-                                    <ul class="axil-submenu">
-                                        <li><a href="#">Service - 1</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="{{ route('about') }}"
+                                        class="{{ request()->routeIs('about') ? 'active' : '' }}">About</a></li>
+                                <li><a href="https://healthpassport.africa/contact">Contact</a></li>
                             </ul>
                         </nav>
                         <!-- End Mainmanu Nav -->
@@ -205,17 +201,6 @@
                                     <i class="flaticon-magnifying-glass"></i>
                                 </a>
                             </li>
-                            <li class="wishlist">
-                                <a href="wishlist.html">
-                                    <i class="flaticon-heart"></i>
-                                </a>
-                            </li>
-                            <li class="shopping-cart">
-                                <a href="#" class="cart-dropdown-btn">
-                                    <span class="cart-count">3</span>
-                                    <i class="flaticon-shopping-cart"></i>
-                                </a>
-                            </li>
                             <li class="my-account">
                                 <a href="javascript:void(0)">
                                     <i class="flaticon-person"></i>
@@ -224,22 +209,21 @@
                                     <span class="title">QUICKLINKS</span>
                                     <ul>
                                         <li>
-                                            <a href="my-account.html">My Account</a>
+                                            <a href="https://healthpassport.africa/auth/login">My Account</a>
                                         </li>
                                         <li>
-                                            <a href="#">Initiate return</a>
+                                            <a href="javascript:void(0)">Support</a>
                                         </li>
                                         <li>
-                                            <a href="#">Support</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Language</a>
+                                            <a href="javascript:void(0)">Language</a>
                                         </li>
                                     </ul>
                                     <div class="login-btn">
-                                        <a href="sign-in.html" class="axil-btn btn-bg-primary">Login</a>
+                                        <a href="https://healthpassport.africa/auth/login"
+                                            class="axil-btn btn-bg-primary">Login</a>
                                     </div>
-                                    <div class="reg-footer text-center">No account yet? <a href="sign-up.html"
+                                    <div class="reg-footer text-center">No account yet? <a
+                                            href="https://healthpassport.africa/auth/register"
                                             class="btn-link">REGISTER HERE.</a></div>
                                 </div>
                             </li>

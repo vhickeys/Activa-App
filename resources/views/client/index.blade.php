@@ -39,12 +39,13 @@
                                                 {{ $facility['location']['state'] ?? '' }}
                                             </p>
 
-                                            <span class="badge bg-success text-uppercase">
+                                            <span class="badge bg-primary text-uppercase">
                                                 {{ $facility['tier'] }}
                                             </span>
 
                                             <div class="shop-btn mt-4">
-                                                <a href="{{ url('/facility/' . $facility['slug']) }}" class="axil-btn">
+                                                <a href="{{ route('facility.details', ['slug' => $facility['slug']]) }}"
+                                                    class="axil-btn">
                                                     View Facility
                                                     <i class="fal fa-long-arrow-right"></i>
                                                 </a>
@@ -77,14 +78,14 @@
 
                             <div class="slider-product-box">
                                 <div class="product-thumb">
-                                    <a href="{{ url('/facility/' . $featured['slug']) }}">
+                                    <a href="{{ route('facility.details', ['slug' => $featured['slug']]) }}">
                                         <img src="{{ $apiUrl . '/storage/lifestyle-provider/facilities/media/' . $featuredImage }}"
                                             alt="{{ $featured['facility_name'] }}">
                                     </a>
                                 </div>
 
                                 <h6 class="title">
-                                    <a href="{{ url('/facility/' . $featured['slug']) }}">
+                                    <a href="{{ route('facility.details', ['slug' => $featured['slug']]) }}">
                                         {{ $featured['facility_name'] }}
                                     </a>
                                 </h6>
@@ -102,371 +103,104 @@
     </div>
     <!-- End Slider Area -->
 
-    <!-- Start New Arrivals Product Area  -->
-    {{-- <div class="axil-new-arrivals-product-area fullwidth-container bg-color-white axil-section-gap pb--0">
-        <div class="container ml--xxl-0">
-            <div class="product-area pb--50">
-                <div class="section-title-wrapper">
-                    <span class="title-highlighter highlighter-primary"><i class="far fa-shopping-basket"></i> This
-                        Week’s</span>
-                    <h2 class="title">New Arrivals</h2>
-                </div>
-                <div class="new-arrivals-product-activation slick-layout-wrapper--15 axil-slick-arrow  arrow-top-slide">
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-1.png" alt="Product Images">
-                                    <img class="hover-img" src="assets/images/product/fashion/product-4.png"
-                                        alt="Product Images">
-                                </a>
-                                <div class="label-block label-right">
-                                    <div class="product-badget">20% OFF</div>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Top Handle Handbag</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$80</span>
-                                        <span class="price current-price">$60</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-2.png" alt="Product Images">
-                                    <img class="hover-img" src="assets/images/product/fashion/product-6.png"
-                                        alt="Product Images">
-                                </a>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                        </li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Leather Bag For Men</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$40</span>
-                                        <span class="price current-price">$40</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-3.png" alt="Product Images">
-                                </a>
-                                <div class="label-block label-right">
-                                    <div class="product-badget">15% OFF</div>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                        </li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Long Sleeve Sweater</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$30</span>
-                                        <span class="price current-price">$24</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-4.png" alt="Product Images">
-                                </a>
-                                <div class="label-block label-right">
-                                    <div class="product-badget">30% OFF</div>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                        </li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Men's Winter Jacket</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$50</span>
-                                        <span class="price current-price">$40</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-5.png" alt="Product Images">
-                                </a>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                        </li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Micro Fiber Sheet</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$60</span>
-                                        <span class="price current-price">$50</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-3.png" alt="Product Images">
-                                </a>
-                                <div class="label-block label-right">
-                                    <div class="product-badget">15% OFF</div>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                        </li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Long Sleeve Sweater</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$30</span>
-                                        <span class="price current-price">$24</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-4.png" alt="Product Images">
-                                </a>
-                                <div class="label-block label-right">
-                                    <div class="product-badget">30% OFF</div>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                        </li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Men's Winter Jacket</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$50</span>
-                                        <span class="price current-price">$40</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                    <div class="slick-single-layout">
-                        <div class="axil-product product-style-four">
-                            <div class="thumbnail">
-                                <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500"
-                                        src="assets/images/product/fashion/product-5.png" alt="Product Images">
-                                </a>
-                                <div class="product-hover-action">
-                                    <ul class="cart-action">
-                                        <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                        </li>
-                                        <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                        <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="inner">
-                                    <h5 class="title"><a href="single-product.html">Micro Fiber Sheet</a></h5>
-                                    <div class="product-price-variant">
-                                        <span class="price old-price">$60</span>
-                                        <span class="price current-price">$50</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End .slick-single-layout -->
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- End New Arrivals Product Area  -->
-
-    <!-- Start Expolre Product Area  -->
+    <!-- Start Explore Facilities Area -->
     <div class="axil-product-area bg-color-white axil-section-gap">
         <div class="container">
-            <div class="section-title-wrapper">
-                <span class="title-highlighter highlighter-primary"> <i class="far fa-shopping-basket"></i> Our
-                    Products</span>
-                <h2 class="title">Explore our Products</h2>
-            </div>
-            <div
-                class="explore-product-activation slick-layout-wrapper slick-layout-wrapper--15 axil-slick-arrow arrow-top-slide">
-                <div class="slick-single-layout">
-                    <div class="row row--15">
-                        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                            <div class="axil-product product-style-one">
-                                <div class="thumbnail">
-                                    <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500"
-                                            src="assets/images/product/fashion/product-8.png" alt="Product Images">
-                                    </a>
-                                    <div class="label-block label-right">
-                                        <div class="product-badget">20% Off</div>
-                                    </div>
-                                    <div class="product-hover-action">
-                                        <ul class="cart-action">
-                                            <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li>
-                                            <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                            <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <div class="inner">
-                                        <h5 class="title"><a href="single-product.html">Leather Jacket</a></h5>
-                                        <div class="product-price-variant">
-                                            <span class="price current-price">$29.99</span>
-                                            <span class="price old-price">$49.99</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product  -->
-                    </div>
-                </div>
-                <!-- End .slick-single-layout -->
-                <div class="slick-single-layout">
-                    <div class="row row--15">
-                        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                            <div class="axil-product product-style-one">
-                                <div class="thumbnail">
-                                    <a href="single-product.html">
-                                        <img src="assets/images/product/fashion/product-8.png" alt="Product Images">
-                                    </a>
-                                    <div class="label-block label-right">
-                                        <div class="product-badget">20% Off</div>
-                                    </div>
-                                    <div class="product-hover-action">
-                                        <ul class="cart-action">
-                                            <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li>
-                                            <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                            <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <div class="inner">
-                                        <h5 class="title"><a href="single-product.html">Leather Jacket</a></h5>
-                                        <div class="product-price-variant">
-                                            <span class="price current-price">$29.99</span>
-                                            <span class="price old-price">$49.99</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product  -->
-                    </div>
-                </div>
-                <!-- End .slick-single-layout -->
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center mt--20 mt_sm--0">
-                    <a href="shop.html" class="axil-btn btn-bg-lighter btn-load-more">View All Products</a>
-                </div>
+            <div class="section-title-wrapper text-center mb-5">
+                <span class="title-highlighter highlighter-primary">
+                    <i class="far fa-building"></i> Our Facilities
+                </span>
+                <h2 class="title">Explore our Lifestyle Facilities</h2>
             </div>
 
+            <div class="row row--15">
+                @forelse ($facilities as $facility)
+                    @php
+                        $image = $facility['image'] ?? 'placeholder.png';
+                        $tier = ucfirst($facility['tier'] ?? 'N/A');
+                        $price = $facility['price_range'] ?? null;
+                        $hours = $facility['operating_hours'] ?? null;
+                        $city = $facility['location']['city'] ?? '';
+                        $state = $facility['location']['state'] ?? '';
+                    @endphp
+
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
+                        <div class="axil-product product-style-one h-100 shadow-sm hover-shadow">
+                            <div class="thumbnail position-relative overflow-hidden">
+                                <a href="{{ route('facility.details', ['slug' => $facility['slug']]) }}">
+                                    <img src="{{ $apiUrl . '/storage/lifestyle-provider/facilities/' . $image }}"
+                                        alt="{{ $facility['facility_name'] }}" class="img-fluid">
+                                </a>
+
+                                @if ($tier)
+                                    <span class="badge bg-primary position-absolute top-0 end-0 m-2">{{ $tier }}
+                                        Tier</span>
+                                @endif
+                            </div>
+
+                            <div class="product-content p-3">
+                                <h5 class="title mb-2">
+                                    <a href="{{ route('facility.details', ['slug' => $facility['slug']]) }}" class="text-dark">
+                                        {{ $facility['facility_name'] }}
+                                    </a>
+                                </h5>
+
+                                @if ($price)
+                                    <div class="product-price mb-2">
+                                        <span class="text-primary fw-bold">
+                                            ₦{{ number_format($price['min']) }} - ₦{{ number_format($price['max']) }}
+                                        </span>
+                                    </div>
+                                @endif
+
+                                <div class="product-meta text-muted small">
+                                    <span><i class="far fa-map-marker-alt"></i> {{ $city }},
+                                        {{ $state }}</span>
+                                    @if ($hours)
+                                        <br>
+                                        <span><i class="far fa-clock"></i> {{ $hours }}</span>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @empty
+                    <div class="col-12 text-center">
+                        <p class="text-muted">No facilities found at the moment.</p>
+                    </div>
+                @endforelse
+            </div>
+
+            {{-- Pagination --}}
+            @if (!empty($pagination) && $pagination['last_page'] > 1)
+                <div class="row mt-4">
+                    <div class="col-12 d-flex justify-content-center">
+                        <nav>
+                            <ul class="pagination pagination-rounded">
+                                {{-- Previous Page --}}
+                                <li class="page-item {{ !$pagination['prev_page_url'] ? 'disabled' : '' }}">
+                                    <a class="page-link" href="{{ $pagination['prev_page_url'] ?? '#' }}">« Previous</a>
+                                </li>
+
+                                {{-- Page Numbers --}}
+                                @for ($i = 1; $i <= $pagination['last_page']; $i++)
+                                    <li class="page-item {{ $i == $pagination['current_page'] ? 'active' : '' }}">
+                                        <a class="page-link"
+                                            href="?page={{ $i }}&per_page={{ $pagination['per_page'] }}">{{ $i }}</a>
+                                    </li>
+                                @endfor
+
+                                {{-- Next Page --}}
+                                <li class="page-item {{ !$pagination['next_page_url'] ? 'disabled' : '' }}">
+                                    <a class="page-link" href="{{ $pagination['next_page_url'] ?? '#' }}">Next »</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            @endif
         </div>
     </div>
-    <!-- End Expolre Product Area  -->
+    <!-- End Explore Facilities Area -->
+
 @endsection

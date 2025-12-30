@@ -1,4 +1,4 @@
-    <div class="service-area">
+    {{-- <div class="service-area">
         <div class="container">
             <div class="row row-cols-xl-4 row-cols-sm-2 row-cols-1 row--20">
                 <div class="col">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Start Footer Area  -->
     <footer class="axil-footer-area footer-style-2">
         <!-- Start Footer Top Area  -->
@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Start Single Widget  -->
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Support</h5>
                             <!-- <div class="logo mb--30">
@@ -64,15 +64,15 @@
                             </a>
                         </div> -->
                             <div class="inner">
-                                <p>685 Market Street, <br>
-                                    Las Vegas, LA 95820, <br>
-                                    United States.
+                                <p>Ocean Center, Gudu, <br>
+                                    F.C.T Abuja, <br>
+                                    Nigeria.
                                 </p>
                                 <ul class="support-list-item">
                                     <li><a href="mailto:example@domain.com"><i class="fal fa-envelope-open"></i>
-                                            example@domain.com</a></li>
-                                    <li><a href="tel:(+01)850-315-5862"><i class="fal fa-phone-alt"></i> (+01)
-                                            850-315-5862</a></li>
+                                            contact@activa.com</a></li>
+                                    <li><a href="tel:(+01)850-315-5862"><i class="fal fa-phone-alt"></i> (+234) 810 504
+                                            3535</a></li>
                                     <!-- <li><i class="fal fa-map-marker-alt"></i> 685 Market Street,  <br> Las Vegas, LA 95820, <br> United States.</li> -->
                                 </ul>
                             </div>
@@ -80,39 +80,38 @@
                     </div>
                     <!-- End Single Widget  -->
                     <!-- Start Single Widget  -->
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Account</h5>
                             <div class="inner">
                                 <ul>
-                                    <li><a href="my-account.html">My Account</a></li>
-                                    <li><a href="sign-up.html">Login / Register</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="https://healthpassport.africa/auth/login">My Account</a></li>
+                                    <li><a href="https://healthpassport.africa/auth/login">Login / Register</a></li>
+                                    <li><a href="https://healthpassport.africa/auth/login">About us</a></li>
+                                    <li><a href="https://healthpassport.africa/contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <!-- End Single Widget  -->
                     <!-- Start Single Widget  -->
-                    <div class="col-lg-3 col-sm-6">
+                    {{-- <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Quick Link</h5>
                             <div class="inner">
                                 <ul>
                                     <li><a href="privacy-policy.html">Privacy Policy</a></li>
                                     <li><a href="terms-of-service.html">Terms Of Use</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="javascript:void(0)">FAQ</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- End Single Widget  -->
                     <!-- Start Single Widget  -->
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Download App</h5>
                             <div class="inner">
@@ -122,11 +121,13 @@
                                         <img src="{{ asset('client/assets/images/others/qr.png') }}" alt="Axilthemes">
                                     </div>
                                     <div class="app-link">
-                                        <a href="#">
-                                            <img src="{{ asset('client/assets/images/others/app-store.png') }}" alt="App Store">
+                                        <a href="javascript:void(0)">
+                                            <img src="{{ asset('client/assets/images/others/app-store.png') }}"
+                                                alt="App Store">
                                         </a>
-                                        <a href="#">
-                                            <img src="{{ asset('client/assets/images/others/play-store.png') }}" alt="Play Store">
+                                        <a href="javascript:void(0)">
+                                            <img src="{{ asset('client/assets/images/others/play-store.png') }}"
+                                                alt="Play Store">
                                         </a>
                                     </div>
                                 </div>
@@ -144,18 +145,17 @@
                 <div class="row align-items-center">
                     <div class="col-xl-4">
                         <div class="social-share">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-discord"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                            <a href="javascript:void(0)"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
                         <div class="copyright-left d-flex flex-wrap justify-content-center">
                             <ul class="quick-link">
                                 <li>© 2025. All rights reserved by <a target="_blank"
-                                        href="https://axilthemes.com/">Axilthemes</a>.</li>
+                                        href="https://victor.jeapscarhire.ng">Olvios Tech</a>.</li>
                             </ul>
                         </div>
                     </div>
@@ -164,9 +164,12 @@
                             class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
                             <span class="card-text">Accept For</span>
                             <ul class="payment-icons-bottom quick-link">
-                                <li><img src="{{ asset('client/assets/images/icons/cart/cart-1.png') }}" alt="paypal cart"></li>
-                                <li><img src="{{ asset('client/assets/images/icons/cart/cart-2.png') }}" alt="paypal cart"></li>
-                                <li><img src="{{ asset('client/assets/images/icons/cart/cart-5.png') }}" alt="paypal cart"></li>
+                                <li><img src="{{ asset('client/assets/images/icons/cart/cart-1.png') }}"
+                                        alt="paypal cart"></li>
+                                <li><img src="{{ asset('client/assets/images/icons/cart/cart-2.png') }}"
+                                        alt="paypal cart"></li>
+                                <li><img src="{{ asset('client/assets/images/icons/cart/cart-5.png') }}"
+                                        alt="paypal cart"></li>
                             </ul>
                         </div>
                     </div>
@@ -257,10 +260,11 @@
                                     <div class="inner">
                                         <div class="product-rating">
                                             <div class="star-rating">
-                                                <img src="{{ asset('client/assets/images/icons/rate.png') }}" alt="Rate Images">
+                                                <img src="{{ asset('client/assets/images/icons/rate.png') }}"
+                                                    alt="Rate Images">
                                             </div>
                                             <div class="review-link">
-                                                <a href="#">(<span>1</span> customer reviews)</a>
+                                                <a href="javascript:void(0)">(<span>1</span> customer reviews)</a>
                                             </div>
                                         </div>
                                         <h3 class="product-title">Serif Coffee Table</h3>
@@ -339,88 +343,29 @@
     </div>
     <!-- Product Quick View Modal End -->
 
-    <!-- Header Search Modal End -->
     <div class="header-search-modal" id="header-search-modal">
-        <button class="card-close sidebar-close"><i class="fas fa-times"></i></button>
+        <button class="card-close sidebar-close">
+            <i class="fas fa-times"></i>
+        </button>
+
         <div class="header-search-wrap">
             <div class="card-header">
-                <form action="#">
-                    <div class="input-group">
-                        <input type="search" class="form-control" name="prod-search" id="prod-search"
-                            placeholder="Write Something....">
-                        <button type="submit" class="axil-btn btn-bg-primary"><i class="far fa-search"></i></button>
-                    </div>
-                </form>
-            </div>
-            <div class="card-body">
-                <div class="search-result-header">
-                    <h6 class="title">24 Result Found</h6>
-                    <a href="shop.html" class="view-all">View All</a>
+                <div class="input-group">
+                    <input type="search" class="form-control" id="facility-search-input"
+                        placeholder="Search facilities..." autocomplete="off">
+                    <button class="axil-btn btn-bg-primary" type="button">
+                        <i class="far fa-search"></i>
+                    </button>
                 </div>
-                <div class="psearch-results">
-                    <div class="axil-product-list">
-                        <div class="thumbnail">
-                            <a href="single-product.html">
-                                <img src="{{ asset('client/assets/images/product/electric/product-09.png') }}" alt="Yantiti Leather Bags">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <div class="product-rating">
-                                <span class="rating-icon">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fal fa-star"></i>
-                                </span>
-                                <span class="rating-number"><span>100+</span> Reviews</span>
-                            </div>
-                            <h6 class="product-title"><a href="single-product.html">Media Remote</a></h6>
-                            <div class="product-price-variant">
-                                <span class="price current-price">$29.99</span>
-                                <span class="price old-price">$49.99</span>
-                            </div>
-                            <div class="product-cart">
-                                <a href="cart.html" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>
-                                <a href="wishlist.html" class="cart-btn"><i class="fal fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="axil-product-list">
-                        <div class="thumbnail">
-                            <a href="single-product.html">
-                                <img src="{{ asset('client/assets/images/product/electric/product-09.png') }}" alt="Yantiti Leather Bags">
-                            </a>
-                        </div>
-                        <div class="product-content">
-                            <div class="product-rating">
-                                <span class="rating-icon">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fal fa-star"></i>
-                                </span>
-                                <span class="rating-number"><span>100+</span> Reviews</span>
-                            </div>
-                            <h6 class="product-title"><a href="single-product.html">Media Remote</a></h6>
-                            <div class="product-price-variant">
-                                <span class="price current-price">$29.99</span>
-                                <span class="price old-price">$49.99</span>
-                            </div>
-                            <div class="product-cart">
-                                <a href="cart.html" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>
-                                <a href="wishlist.html" class="cart-btn"><i class="fal fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+
+            <div class="card-body">
+                <div class="psearch-results" id="facility-search-results">
+                    <p class="text-muted text-center">Loading facilities...</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Header Search Modal End -->
-
-
 
     <div class="cart-dropdown" id="cart-dropdown">
         <div class="cart-content-wrap">
@@ -432,7 +377,8 @@
                 <ul class="cart-item-list">
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product.html"><img src="{{ asset('client/assets/images/product/electric/product-01.png') }}"
+                            <a href="single-product.html"><img
+                                    src="{{ asset('client/assets/images/product/electric/product-01.png') }}"
                                     alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
@@ -456,7 +402,8 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-2.html"><img src="{{ asset('client/assets/images/product/electric/product-02.png') }}"
+                            <a href="single-product-2.html"><img
+                                    src="{{ asset('client/assets/images/product/electric/product-02.png') }}"
                                     alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
@@ -480,7 +427,8 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-3.html"><img src="{{ asset('client/assets/images/product/electric/product-03.png') }}"
+                            <a href="single-product-3.html"><img
+                                    src="{{ asset('client/assets/images/product/electric/product-03.png') }}"
                                     alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>

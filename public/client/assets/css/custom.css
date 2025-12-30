@@ -1,0 +1,63 @@
+/* Override primary and secondary colors */
+:root {
+    --bs-primary: #8c71db; /* primary color */
+    --bs-primary-rgb: 140, 113, 219;
+    --bs-secondary: #ff497c; /* secondary color */
+    --bs-secondary-rgb: 255, 73, 124;
+
+    /* Optional subtle/background variations */
+    --bs-primary-bg-subtle: #e6e0fb;
+    --bs-secondary-bg-subtle: #ffd6e0;
+
+    --bs-primary-border-subtle: #c3b4f6;
+    --bs-secondary-border-subtle: #ffabc1;
+}
+
+/* Override text colors for consistency */
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+    color: var(--bs-secondary) !important;
+}
+
+/* Override buttons specifically */
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #735ec1; /* slightly darker shade for hover */
+    border-color: #735ec1;
+}
+
+.btn-secondary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #e03f6f; /* slightly darker shade for hover */
+    border-color: #e03f6f;
+}
+
+/* Optional: links using primary/secondary */
+a.text-primary:hover {
+    color: #735ec1;
+}
+
+a.text-secondary:hover {
+    color: #e03f6f;
+}
+
+/* Header search result image */
+.facility-search-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+}
