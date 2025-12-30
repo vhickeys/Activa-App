@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Transcorp Hilton Abuja",
+    "slug": "transcorp-hilton-abuja",
+    "location": "Abuja, Nigeria",
+    "description": "Luxury hotel in Nigeria's capital with upscale amenities, multiple restaurants, and a business-friendly environment.",
+    "rating": "5",
+    "image": "transcorp-hilton.jpg"
+  },
+  {
+    "id": 2,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Eko Hotels & Suites",
+    "slug": "eko-hotels-suites",
+    "location": "Victoria Island, Lagos",
+    "description": "Premier hotel in Lagos offering ocean views, diverse dining options, and event spaces.",
+    "rating": "5",
+    "image": "eko-hotels.jpg"
+  },
+  {
+    "id": 3,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Radisson Blu Anchorage Hotel",
+    "slug": "radisson-blu-anchorage",
+    "location": "Victoria Island, Lagos",
+    "description": "Modern luxury hotel overlooking the Lagos Lagoon, featuring fine dining and a spa.",
+    "rating": "5",
+    "image": "radisson-blu.jpg"
+  },
+  {
+    "id": 4,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Sheraton Lagos Hotel",
+    "slug": "sheraton-lagos",
+    "location": "Ikeja, Lagos",
+    "description": "Well-known hotel near the airport with modern rooms, multiple restaurants, and a pool.",
+    "rating": "4",
+    "image": "sheraton-lagos.jpg"
+  },
+  {
+    "id": 5,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Federal Palace Hotel",
+    "slug": "federal-palace-hotel",
+    "location": "Victoria Island, Lagos",
+    "description": "Historic hotel offering casino, pools, and upscale rooms in the heart of Lagos.",
+    "rating": "5",
+    "image": "federal-palace.jpg"
+  },
+  {
+    "id": 6,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "The Wheatbaker",
+    "slug": "the-wheatbaker",
+    "location": "Ikoyi, Lagos",
+    "description": "Boutique luxury hotel with contemporary design, spa services, and fine dining.",
+    "rating": "5",
+    "image": "wheatbaker.jpg"
+  },
+  {
+    "id": 7,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Lagos Continental Hotel",
+    "slug": "lagos-continental-hotel",
+    "location": "Victoria Island, Lagos",
+    "description": "Tallest hotel in Lagos with ocean views, rooftop pool, and global cuisine.",
+    "rating": "5",
+    "image": "lagos-continental.jpg"
+  },
+  {
+    "id": 8,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Protea Hotel by Marriott Ikeja",
+    "slug": "protea-hotel-ikeja",
+    "location": "Ikeja, Lagos",
+    "description": "Comfortable business hotel with pool, gym, and close proximity to the airport.",
+    "rating": "4",
+    "image": "protea-ikeja.jpg"
+  },
+  {
+    "id": 9,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Four Points by Sheraton",
+    "slug": "four-points-victoria-island",
+    "location": "Victoria Island, Lagos",
+    "description": "Modern hotel with spacious rooms, spa, fitness center, and several dining options.",
+    "rating": "4",
+    "image": "four-points.jpg"
+  },
+  {
+    "id": 10,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Maison Fahrenheit Hotel",
+    "slug": "maison-fahrenheit",
+    "location": "Victoria Island, Lagos",
+    "description": "Trendy boutique hotel with rooftop bar, stylish interiors, and ocean proximity.",
+    "rating": "4",
+    "image": "maison-fahrenheit.jpg"
+  },
+  {
+    "id": 11,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Nordic Hotel",
+    "slug": "nordic-hotel-abuja",
+    "location": "Jabi, Abuja",
+    "description": "Scandinavian-inspired boutique hotel offering minimalist elegance and serene comfort.",
+    "rating": "4",
+    "image": "nordic-hotel.jpg"
+  },
+  {
+    "id": 12,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Ibom Icon Hotel & Golf Resort",
+    "slug": "ibom-icon-golf-resort",
+    "location": "Uyo, Akwa Ibom",
+    "description": "Luxury resort with a golf course, lush greenery, and family-friendly features.",
+    "rating": "5",
+    "image": "ibom-icon.jpg"
+  },
+  {
+    "id": 13,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "De Santiago Milan Hotel",
+    "slug": "de-santiago-milan",
+    "location": "Amuwo Odofin, Lagos",
+    "description": "Modern hotel offering budget-friendly luxury with quality amenities and dining.",
+    "rating": "3",
+    "image": "de-santiago.jpg"
+  },
+  {
+    "id": 14,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Presken Hotel",
+    "slug": "presken-hotel-ikeja",
+    "location": "Ikeja, Lagos",
+    "description": "Affordable comfort hotel popular for short stays and business travelers.",
+    "rating": "3",
+    "image": "presken.jpg"
+  },
+  {
+    "id": 15,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Bon Hotel Grand Pela",
+    "slug": "bon-grand-pela",
+    "location": "Garki, Abuja",
+    "description": "Modern hotel with stylish design, outdoor pool, and an onsite restaurant.",
+    "rating": "4",
+    "image": "bon-grand-pela.jpg"
+  },
+  {
+    "id": 16,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Best Western Plus Elomaz Hotel",
+    "slug": "best-western-elomaz",
+    "location": "Asaba, Delta State",
+    "description": "Upscale international hotel brand offering excellent service and business facilities.",
+    "rating": "4",
+    "image": "elomaz.jpg"
+  },
+  {
+    "id": 17,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Davies Hotel & Suites",
+    "slug": "davies-hotel-suites",
+    "location": "Ibadan, Oyo State",
+    "description": "Affordable and clean hotel with local charm and modern conveniences.",
+    "rating": "3",
+    "image": "davies.jpg"
+  },
+  {
+    "id": 18,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Golden Tulip Hotel",
+    "slug": "golden-tulip-festac",
+    "location": "Festac Town, Lagos",
+    "description": "Popular for its conference halls, dining, and leisure activities in Lagos mainland.",
+    "rating": "4",
+    "image": "golden-tulip.jpg"
+  },
+  {
+    "id": 19,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Hawthorn Suites by Wyndham",
+    "slug": "hawthorn-suites-abuja",
+    "location": "Central Area, Abuja",
+    "description": "Extended-stay hotel with large suites, kitchens, and business-friendly services.",
+    "rating": "4",
+    "image": "hawthorn.jpg"
+  },
+  {
+    "id": 20,
+    "category-slug": "others",
+    "subcategory-slug": "hotels",
+    "name": "Amber Residence",
+    "slug": "amber-residence-ikeja",
+    "location": "GRA Ikeja, Lagos",
+    "description": "Elegant hotel with tranquil atmosphere, fine cuisine, and personalized service.",
+    "rating": "4",
+    "image": "amber-residence.jpg"
+  }
+]

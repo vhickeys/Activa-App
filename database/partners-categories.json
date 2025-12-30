@@ -1,0 +1,774 @@
+[
+  {
+    "id": 1,
+    "category-slug": "sports-club",
+    "title": "Tennis Club",
+    "slug": "tennis-club",
+    "content": "Join our Tennis Club to enjoy competitive and recreational matches for all skill levels.",
+    "image": "tennis-club.jpg"
+  },
+  {
+    "id": 2,
+    "category-slug": "sports-club",
+    "title": "Polo Club",
+    "slug": "polo-club",
+    "content": "Experience the elegance and thrill of horseback polo with our dedicated Polo Club.",
+    "image": "polo-club.jpg"
+  },
+  {
+    "id": 3,
+    "category-slug": "sports-club",
+    "title": "Swimming Club",
+    "slug": "swimming-club",
+    "content": "Dive into fitness and fun with our Swimming Club, perfect for all ages.",
+    "image": "swimming-club.jpg"
+  },
+  {
+    "id": 4,
+    "category-slug": "sports-club",
+    "title": "Basketball Club",
+    "slug": "basketball-club",
+    "content": "Dribble, dunk, and dominate on the court with our Basketball Club.",
+    "image": "basketball-club.jpg"
+  },
+  {
+    "id": 5,
+    "category-slug": "sports-club",
+    "title": "Dancing Club",
+    "slug": "dancing-club",
+    "content": "Express yourself through rhythm and movement in our lively Dancing Club.",
+    "image": "dancing-club.jpg"
+  },
+  {
+    "id": 6,
+    "category-slug": "sports-club",
+    "title": "Football Club",
+    "slug": "football-club",
+    "content": "Join our Football Club and play the world’s favorite sport with passion and teamwork.",
+    "image": "football-club.jpg"
+  },
+  {
+    "id": 7,
+    "category-slug": "sports-club",
+    "title": "Golf Club",
+    "slug": "golf-club",
+    "content": "Relax and compete on the green with our well-equipped Golf Club.",
+    "image": "golf-club.jpg"
+  },
+  {
+    "id": 8,
+    "category-slug": "sports-club",
+    "title": "Volleyball Club",
+    "slug": "volleyball-club",
+    "content": "Serve, spike, and win as part of our fun and energetic Volleyball Club.",
+    "image": "volleyball-club.jpg"
+  },
+  {
+    "id": 9,
+    "category-slug": "sports-club",
+    "title": "Jogging Club",
+    "slug": "jogging-club",
+    "content": "Stay fit and socialize while jogging with others in our Jogging Club.",
+    "image": "jogging-club.jpg"
+  },
+  {
+    "id": 10,
+    "category-slug": "sports-club",
+    "title": "Martial Arts Club",
+    "slug": "martial-arts-club",
+    "content": "Learn self-defense, discipline, and confidence in our Martial Arts Club.",
+    "image": "martial-arts-club.jpg"
+  },
+  {
+    "id": 11,
+    "category-slug": "sports-club",
+    "title": "Weight Lifting Club",
+    "slug": "weight-lifting-club",
+    "content": "Build strength and improve your physique with our Weight Lifting Club.",
+    "image": "weight-lifting-club.jpg"
+  },
+  {
+    "id": 12,
+    "category-slug": "sports-club",
+    "title": "Snookers Club",
+    "slug": "snookers-club",
+    "content": "Refine your precision and enjoy leisure games in our Snookers Club.",
+    "image": "snookers-club.jpg"
+  },
+  {
+    "id": 13,
+    "category-slug": "sports-club",
+    "title": "Chess Club",
+    "slug": "chess-club",
+    "content": "Challenge your mind and strategy in competitive or casual play with our Chess Club.",
+    "image": "chess-club.jpg"
+  },
+  {
+    "id": 14,
+    "category-slug": "sports-club",
+    "title": "Cricket Club",
+    "slug": "cricket-club",
+    "content": "Bat, bowl, and field in our exciting Cricket Club activities and matches.",
+    "image": "cricket-club.jpg"
+  },
+  {
+    "id": 15,
+    "category-slug": "sports-club",
+    "title": "Cycling Club",
+    "slug": "cycling-club",
+    "content": "Ride through scenic routes and stay active with our Cycling Club.",
+    "image": "cycling-club.jpg"
+  },
+  {
+    "id": 16,
+    "category-slug": "sports-club",
+    "title": "Hockey Club",
+    "slug": "hockey-club",
+    "content": "Join our Hockey Club for thrilling matches and top-notch training.",
+    "image": "hockey-club.jpg"
+  },
+  {
+    "id": 17,
+    "category-slug": "sports-club",
+    "title": "American Football Club",
+    "slug": "american-football-club",
+    "content": "Experience the intensity and tactics of American Football in our club.",
+    "image": "american-football-club.jpg"
+  },
+  {
+    "id": 18,
+    "category-slug": "sports-club",
+    "title": "Rugby Club",
+    "slug": "rugby-club",
+    "content": "Tackle, pass, and play hard with our passionate Rugby Club.",
+    "image": "rugby-club.jpg"
+  },
+  {
+    "id": 19,
+    "category-slug": "sports-club",
+    "title": "Table Tennis Club",
+    "slug": "table-tennis-club",
+    "content": "Quick reflexes and fun rallies await you in our Table Tennis Club.",
+    "image": "table-tennis-club.jpg"
+  },
+  {
+    "id": 20,
+    "category-slug": "sports-club",
+    "title": "Badminton Club",
+    "slug": "badminton-club",
+    "content": "Join the Badminton Club for fast-paced matches and cardio fun.",
+    "image": "badminton-club.jpg"
+  },
+  {
+    "id": 21,
+    "category-slug": "sports-club",
+    "title": "Rowing Club",
+    "slug": "rowing-club",
+    "content": "Teamwork and endurance come together on the water in our Rowing Club.",
+    "image": "rowing-club.jpg"
+  },
+  {
+    "id": 22,
+    "category-slug": "sports-club",
+    "title": "Boat Club",
+    "slug": "boat-club",
+    "content": "Enjoy boating adventures and water sports with our Boat Club members.",
+    "image": "boat-club.jpg"
+  },
+  {
+    "id": 23,
+    "category-slug": "sports-club",
+    "title": "Car Racing Club",
+    "slug": "car-racing-club",
+    "content": "Speed, precision, and thrill define our competitive Car Racing Club.",
+    "image": "car-racing-club.jpg"
+  },
+  {
+    "id": 24,
+    "category-slug": "sports-club",
+    "title": "Hiking Club",
+    "slug": "hiking-club",
+    "content": "Explore nature trails and mountains with fellow adventurers in our Hiking Club.",
+    "image": "hiking-club.jpg"
+  },
+  {
+    "id": 25,
+    "category-slug": "sports-club",
+    "title": "Skateboarding Club",
+    "slug": "skateboarding-club",
+    "content": "Show off tricks and ride freely with others in the Skateboarding Club.",
+    "image": "skateboarding-club.jpg"
+  },
+  {
+    "id": 26,
+    "category-slug": "different",
+    "title": "Skateboarding Club",
+    "slug": "skateboarding-club",
+    "content": "Show off tricks and ride freely with others in the Skateboarding Club.",
+    "image": "skateboarding-club.jpg"
+  },
+  {
+    "id": 27,
+    "category-slug": "gyms",
+    "title": "Iron Temple Fitness",
+    "slug": "iron-temple-fitness",
+    "location": "Lagos, Nigeria",
+    "content": "A hardcore training center for bodybuilders and fitness enthusiasts.",
+    "image": "iron-temple.jpg"
+  },
+  {
+    "id": 28,
+    "category-slug": "gyms",
+    "title": "Pulse Gym",
+    "slug": "pulse-gym",
+    "location": "Abuja, Nigeria",
+    "content": "Modern equipment and personalized training plans in a vibrant atmosphere.",
+    "image": "pulse-gym.jpg"
+  },
+  {
+    "id": 29,
+    "category-slug": "gyms",
+    "title": "BodyWorks Arena",
+    "slug": "bodyworks-arena",
+    "location": "Port Harcourt, Nigeria",
+    "content": "Premium fitness center offering HIIT, cardio, and strength programs.",
+    "image": "bodyworks.jpg"
+  },
+  {
+    "id": 30,
+    "category-slug": "gyms",
+    "title": "The Fit Yard",
+    "slug": "the-fit-yard",
+    "location": "Ibadan, Nigeria",
+    "content": "An outdoor and indoor hybrid gym space for every fitness level.",
+    "image": "fit-yard.jpg"
+  },
+  {
+    "id": 31,
+    "category-slug": "gyms",
+    "title": "Urban Strength",
+    "slug": "urban-strength",
+    "location": "Benin City, Nigeria",
+    "content": "Functional training, strength sessions, and weight loss programs.",
+    "image": "urban-strength.jpg"
+  },
+  {
+    "id": 32,
+    "category-slug": "gyms",
+    "title": "Velocity Gym",
+    "slug": "velocity-gym",
+    "location": "Enugu, Nigeria",
+    "content": "Speed, agility, and endurance-focused training for all ages.",
+    "image": "velocity.jpg"
+  },
+  {
+    "id": 33,
+    "category-slug": "gyms",
+    "title": "Alpha Fitness Center",
+    "slug": "alpha-fitness-center",
+    "location": "Uyo, Nigeria",
+    "content": "Fully equipped gym with professional trainers and group classes.",
+    "image": "alpha-fitness.jpg"
+  },
+  {
+    "id": 34,
+    "category-slug": "gyms",
+    "title": "Beast Mode Gym",
+    "slug": "beast-mode-gym",
+    "location": "Kano, Nigeria",
+    "content": "Go beast mode with high-intensity workouts and muscle building routines.",
+    "image": "beast-mode.jpg"
+  },
+  {
+    "id": 9,
+    "category-slug": "gyms",
+    "title": "Prime Fitness Lab",
+    "slug": "prime-fitness-lab",
+    "location": "Asaba, Nigeria",
+    "content": "Science-based fitness, recovery, and performance optimization.",
+    "image": "prime-fitness.jpg"
+  },
+  {
+    "id": 35,
+    "category-slug": "gyms",
+    "title": "FitLife Center",
+    "slug": "fitlife-center",
+    "location": "Abeokuta, Nigeria",
+    "content": "A family-friendly fitness space with all-day classes and wellness plans.",
+    "image": "fitlife.jpg"
+  },
+  {
+    "id": 36,
+    "category-slug": "gyms",
+    "title": "Titan Gym",
+    "slug": "titan-gym",
+    "location": "Owerri, Nigeria",
+    "content": "A champion’s arena with powerlifting and competitive training.",
+    "image": "titan.jpg"
+  },
+  {
+    "id": 37,
+    "category-slug": "gyms",
+    "title": "PowerHaus",
+    "slug": "powerhaus",
+    "location": "Onitsha, Nigeria",
+    "content": "Strength and conditioning gym focused on personal transformation.",
+    "image": "powerhaus.jpg"
+  },
+  {
+    "id": 38,
+    "category-slug": "gyms",
+    "title": "ZenFit Studio",
+    "slug": "zenfit-studio",
+    "location": "Calabar, Nigeria",
+    "content": "Balance mind and body with fitness, yoga, and meditation fusion.",
+    "image": "zenfit.jpg"
+  },
+  {
+    "id": 39,
+    "category-slug": "gyms",
+    "title": "The Iron Forge",
+    "slug": "the-iron-forge",
+    "location": "Ilorin, Nigeria",
+    "content": "A no-nonsense gym for strength training and personal grit.",
+    "image": "iron-forge.jpg"
+  },
+  {
+    "id": 40,
+    "category-slug": "gyms",
+    "title": "TrainStation",
+    "slug": "trainstation",
+    "location": "Maiduguri, Nigeria",
+    "content": "A full-body conditioning gym built for train-like intensity.",
+    "image": "trainstation.jpg"
+  },
+  {
+    "id": 41,
+    "category-slug": "gyms",
+    "title": "Muscle Hub",
+    "slug": "muscle-hub",
+    "location": "Jos, Nigeria",
+    "content": "Bulk up and get stronger with programs designed for hypertrophy.",
+    "image": "muscle-hub.jpg"
+  },
+  {
+    "id": 42,
+    "category-slug": "gyms",
+    "title": "Core & Cardio",
+    "slug": "core-and-cardio",
+    "location": "Warri, Nigeria",
+    "content": "Core-focused workouts combined with heart-pumping cardio sessions.",
+    "image": "core-cardio.jpg"
+  },
+  {
+    "id": 43,
+    "category-slug": "gyms",
+    "title": "Iron City Fitness",
+    "slug": "iron-city-fitness",
+    "location": "Lokoja, Nigeria",
+    "content": "A high-intensity gym with group classes and personal coaching.",
+    "image": "iron-city.jpg"
+  },
+  {
+    "id": 44,
+    "category-slug": "gyms",
+    "title": "LevelUp Gym",
+    "slug": "levelup-gym",
+    "location": "Yola, Nigeria",
+    "content": "Take your fitness to the next level with expert trainers and plans.",
+    "image": "levelup.jpg"
+  },
+  {
+    "id": 45,
+    "category-slug": "gyms",
+    "title": "SteelFit House",
+    "slug": "steelfit-house",
+    "location": "Ado Ekiti, Nigeria",
+    "content": "An elite gym for strength, conditioning, and physique sculpting.",
+    "image": "steelfit.jpg"
+  },
+  {
+    "id": 46,
+    "category-slug": "health-clubs",
+    "title": "Diabetes",
+    "slug": "diabetes",
+    "location": "Nigeria",
+    "content": "Support and care services for diabetes prevention and management.",
+    "image": "diabetes.jpg"
+  },
+  {
+    "id": 47,
+    "category-slug": "health-clubs",
+    "title": "Sickle Cell Disease",
+    "slug": "sickle-cell-disease",
+    "location": "Nigeria",
+    "content": "Awareness, treatment, and support for individuals living with sickle cell disorder.",
+    "image": "sickle-cell.jpg"
+  },
+  {
+    "id": 48,
+    "category-slug": "health-clubs",
+    "title": "Hypertension",
+    "slug": "hypertension",
+    "location": "Nigeria",
+    "content": "High blood pressure monitoring, education, and treatment plans.",
+    "image": "hypertension.jpg"
+  },
+  {
+    "id": 49,
+    "category-slug": "health-clubs",
+    "title": "Cancer Care",
+    "slug": "cancer-care",
+    "location": "Nigeria",
+    "content": "Supportive care, screenings, and education on cancer prevention and treatment.",
+    "image": "cancer-care.jpg"
+  },
+  {
+    "id": 50,
+    "category-slug": "health-clubs",
+    "title": "Child Nutrition",
+    "slug": "child-nutrition",
+    "location": "Nigeria",
+    "content": "Healthy eating plans and nutritional counseling for children.",
+    "image": "child-nutrition.jpg"
+  },
+  {
+    "id": 51,
+    "category-slug": "health-clubs",
+    "title": "Asthma",
+    "slug": "asthma",
+    "location": "Nigeria",
+    "content": "Asthma control, medication guidance, and respiratory care services.",
+    "image": "asthma.jpg"
+  },
+  {
+    "id": 52,
+    "category-slug": "health-clubs",
+    "title": "Pregnancy",
+    "slug": "pregnancy",
+    "location": "Nigeria",
+    "content": "Comprehensive antenatal, delivery, and postnatal care services.",
+    "image": "pregnancy.jpg"
+  },
+  {
+    "id": 53,
+    "category-slug": "health-clubs",
+    "title": "Weight Control",
+    "slug": "weight-control",
+    "location": "Nigeria",
+    "content": "Weight loss and management programs tailored for all body types.",
+    "image": "weight-control.jpg"
+  },
+  {
+    "id": 54,
+    "category-slug": "health-clubs",
+    "title": "Senior Citizens Care",
+    "slug": "senior-citizens-care",
+    "location": "Nigeria",
+    "content": "Dedicated care and wellness services for the elderly population.",
+    "image": "senior-care.jpg"
+  },
+  {
+    "id": 55,
+    "category-slug": "health-clubs",
+    "title": "Stroke Care",
+    "slug": "stroke-care",
+    "location": "Nigeria",
+    "content": "Rehabilitation and support services for stroke survivors.",
+    "image": "stroke-care.jpg"
+  },
+  {
+    "id": 56,
+    "category-slug": "health-clubs",
+    "title": "Fertility Care",
+    "slug": "fertility-care",
+    "location": "Nigeria",
+    "content": "Solutions and support for fertility issues and reproductive health.",
+    "image": "fertility-care.jpg"
+  },
+  {
+    "id": 57,
+    "category-slug": "health-clubs",
+    "title": "Post Pregnancy",
+    "slug": "post-pregnancy",
+    "location": "Nigeria",
+    "content": "Guidance and care for mothers recovering after childbirth.",
+    "image": "post-pregnancy.jpg"
+  },
+  {
+    "id": 58,
+    "category-slug": "health-clubs",
+    "title": "Post Kidney Transplant",
+    "slug": "post-kidney-transplant",
+    "location": "Nigeria",
+    "content": "Specialized monitoring and support for kidney transplant patients.",
+    "image": "kidney-transplant.jpg"
+  },
+  {
+    "id": 59,
+    "category-slug": "health-clubs",
+    "title": "Prostate Care",
+    "slug": "prostate-care",
+    "location": "Nigeria",
+    "content": "Screenings and treatments focused on prostate health for men.",
+    "image": "prostate-care.jpg"
+  },
+  {
+    "id": 60,
+    "category-slug": "health-clubs",
+    "title": "Thyroid Care",
+    "slug": "thyroid-care",
+    "location": "Nigeria",
+    "content": "Support and diagnosis for thyroid-related hormonal imbalances.",
+    "image": "thyroid-care.jpg"
+  },
+  {
+    "id": 61,
+    "category-slug": "health-clubs",
+    "title": "Mental Health",
+    "slug": "mental-health",
+    "location": "Nigeria",
+    "content": "Professional counseling, therapy, and mental wellness support.",
+    "image": "mental-health.jpg"
+  },
+  {
+    "id": 62,
+    "category-slug": "health-clubs",
+    "title": "Autism",
+    "slug": "autism",
+    "location": "Nigeria",
+    "content": "Therapies, support groups, and educational resources for autism spectrum conditions.",
+    "image": "autism.jpg"
+  },
+  {
+    "id": 63,
+    "category-slug": "health-clubs",
+    "title": "Emergency Care",
+    "slug": "emergency-care",
+    "location": "Nigeria",
+    "content": "Immediate medical attention and life-saving services 24/7.",
+    "image": "emergency.jpg"
+  },
+  {
+    "id": 64,
+    "category-slug": "health-clubs",
+    "title": "Early Childhood Care",
+    "slug": "early-childhood-care",
+    "location": "Nigeria",
+    "content": "Developmental monitoring and medical care for infants and toddlers.",
+    "image": "early-care.jpg"
+  },
+  {
+    "id": 65,
+    "category-slug": "health-clubs",
+    "title": "Breast Care",
+    "slug": "breast-care",
+    "location": "Nigeria",
+    "content": "Awareness, screenings, and breast cancer support services.",
+    "image": "breast-care.jpg"
+  },
+  {
+    "id": 66,
+    "category-slug": "health-clubs",
+    "title": "Purple Care",
+    "slug": "purple-care",
+    "location": "Nigeria",
+    "content": "Specialized support and palliative care for chronic illness and conditions.",
+    "image": "purple-care.jpg"
+  },
+  {
+    "id": 67,
+    "category-slug": "health-clubs",
+    "title": "Malaria",
+    "slug": "malaria",
+    "location": "Nigeria",
+    "content": "Preventive education, diagnosis, and treatment of malaria.",
+    "image": "malaria.jpg"
+  },
+  {
+    "id": 68,
+    "category-slug": "health-clubs",
+    "title": "Pets Care",
+    "slug": "pets-care",
+    "location": "Nigeria",
+    "content": "Veterinary services and wellness programs for pets and domestic animals.",
+    "image": "pets-care.jpg"
+  },
+  {
+    "id": 69,
+    "category-slug": "health-clubs",
+    "title": "Healthy Cooking",
+    "slug": "healthy-cooking",
+    "location": "Nigeria",
+    "content": "Guidance on nutritious meals and cooking techniques for a healthier lifestyle.",
+    "image": "healthy-cooking.jpg"
+  },
+  {
+    "id": 70,
+    "category-slug": "others",
+    "title": "Hotels",
+    "slug": "hotels",
+    "content": "Luxury and budget hotel options offering diverse services including dining, spa, and transport.",
+    "image": "hotels.jpg"
+  },
+  {
+    "id": 71,
+    "category-slug": "others",
+    "title": "Restaurants",
+    "slug": "restaurants",
+    "content": "Fine dining, casual eateries, and fast food outlets serving a variety of cuisines.",
+    "image": "restaurants.jpg"
+  },
+  {
+    "id": 72,
+    "category-slug": "others",
+    "title": "Beauty Saloons",
+    "slug": "beauty-saloons",
+    "content": "Professional hair, skincare, and grooming services for men and women.",
+    "image": "beauty-saloons.jpg"
+  },
+  {
+    "id": 73,
+    "category-slug": "others",
+    "title": "Spas",
+    "slug": "spas",
+    "content": "Relaxation and rejuvenation with massages, facials, and body treatments.",
+    "image": "spas.jpg"
+  },
+  {
+    "id": 74,
+    "category-slug": "others",
+    "title": "Airport Lounge",
+    "slug": "airport-lounge",
+    "content": "Exclusive lounges for travelers offering comfort, refreshments, and Wi-Fi.",
+    "image": "airport-lounge.jpg"
+  },
+  {
+    "id": 75,
+    "category-slug": "others",
+    "title": "Other Lounge",
+    "slug": "other-lounge",
+    "content": "Chill-out spots and lounges for socializing, working, or relaxing.",
+    "image": "other-lounge.jpg"
+  },
+  {
+    "id": 76,
+    "category-slug": "others",
+    "title": "Creche",
+    "slug": "creche",
+    "content": "Safe and engaging early childhood care and development centers.",
+    "image": "creche.jpg"
+  },
+  {
+    "id": 77,
+    "category-slug": "others",
+    "title": "Executive Car Ride",
+    "slug": "executive-car-ride",
+    "content": "Luxury transport services with professional drivers for business or leisure.",
+    "image": "executive-car.jpg"
+  },
+  {
+    "id": 78,
+    "category-slug": "others",
+    "title": "Boutiques",
+    "slug": "boutiques",
+    "content": "Trendy clothing and fashion accessories for all styles and occasions.",
+    "image": "boutiques.jpg"
+  },
+  {
+    "id": 79,
+    "category-slug": "others",
+    "title": "Travel Agencies",
+    "slug": "travel-agencies",
+    "content": "Flight booking, vacation planning, and global travel consultancy.",
+    "image": "travel-agencies.jpg"
+  },
+  {
+    "id": 80,
+    "category-slug": "others",
+    "title": "Laundry Service",
+    "slug": "laundry-service",
+    "content": "Fast and affordable dry cleaning and laundry pickup/drop-off solutions.",
+    "image": "laundry.jpg"
+  },
+  {
+    "id": 81,
+    "category-slug": "others",
+    "title": "Perfumery",
+    "slug": "perfumery",
+    "content": "Fragrance collections and custom blends for personal and gift use.",
+    "image": "perfumery.jpg"
+  },
+  {
+    "id": 82,
+    "category-slug": "others",
+    "title": "Supermarket",
+    "slug": "supermarket",
+    "content": "Retail stores offering groceries, household items, and daily essentials.",
+    "image": "supermarket.jpg"
+  },
+  {
+    "id": 83,
+    "category-slug": "others",
+    "title": "Digital Appliance Shops",
+    "slug": "digital-appliance-shops",
+    "content": "Electronics and gadgets including phones, TVs, and smart home devices.",
+    "image": "digital-appliances.jpg"
+  },
+  {
+    "id": 84,
+    "category-slug": "others",
+    "title": "Events Hall",
+    "slug": "events-hall",
+    "content": "Venues for weddings, conferences, and special occasions of all sizes.",
+    "image": "events-hall.jpg"
+  },
+  {
+    "id": 85,
+    "category-slug": "others",
+    "title": "Amusement Park/Fields",
+    "slug": "amusement-park-fields",
+    "content": "Outdoor fun with rides, games, and entertainment for families and children.",
+    "image": "amusement-park.jpg"
+  },
+  {
+    "id": 86,
+    "category-slug": "others",
+    "title": "Private Protection",
+    "slug": "private-protection",
+    "content": "Personal security services and private guards for homes and events.",
+    "image": "private-protection.jpg"
+  },
+  {
+    "id": 87,
+    "category-slug": "others",
+    "title": "Bookshops/Clubs",
+    "slug": "bookshops-clubs",
+    "content": "Bookstores and literary clubs fostering reading and knowledge sharing.",
+    "image": "bookshops.jpg"
+  },
+  {
+    "id": 88,
+    "category-slug": "others",
+    "title": "Furniture Shops",
+    "slug": "furniture-shops",
+    "content": "Stylish and functional furniture for homes, offices, and outdoors.",
+    "image": "furniture.jpg"
+  },
+  {
+    "id": 89,
+    "category-slug": "others",
+    "title": "Giftshops",
+    "slug": "giftshops",
+    "content": "Specialty items and souvenirs for all kinds of gifting needs.",
+    "image": "giftshops.jpg"
+  },
+  {
+    "id": 90,
+    "category-slug": "others",
+    "title": "Entertainment Clubs",
+    "slug": "entertainment-clubs",
+    "content": "Nightlife venues and clubs for music, drinks, and dancing.",
+    "image": "entertainment-clubs.jpg"
+  }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Sports Club",
+        "slug": "sports-club",
+        "content": "Explore a variety of athletic and team-based activities designed to keep you active and engaged.",
+        "image": "sports-club.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Gyms",
+        "slug": "gyms",
+        "content": "Stay fit and build strength with access to modern equipment, personal trainers, and fitness programs.",
+        "image": "gyms.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Health Clubs",
+        "slug": "health-clubs",
+        "content": "Enhance your wellness with a mix of fitness, relaxation, and lifestyle services in our health clubs.",
+        "image": "health-clubs.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Others",
+        "slug": "others",
+        "content": "Discover additional clubs and recreational activities tailored to your interests and hobbies.",
+        "image": "others.jpg"
+    }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "type": "Classic",
+    "slug": "classic",
+    "caption": "Step into the world of Activa with our Classic Membership, designed for individuals who want to experience premium health and lifestyle services without breaking the bank.",
+    "card_type": ["Gold", "Silver"],
+    "membership_fee": 25000,
+    "minimum_cash_loading": 150000,
+    "benefits": [
+      "Access to DiscountActiva (based on card membership)",
+      "Eligible for ActivaMiles rewards"
+    ],
+    "notes": "Ideal for entry-level members looking for lifestyle perks at an affordable threshold."
+  },
+  {
+    "id": 2,
+    "type": "Premium",
+    "slug": "premium",
+    "caption": "Our Premium Membership gives you VIP access to high-end services, priority bookings, and luxury experiences across the Activa ecosystem.",
+    "card_type": ["Black", "Platinum"],
+    "membership_fee": 250000,
+    "minimum_cash_loading": 2500000,
+    "benefits": [
+      "Access to both DiscountActiva and DiscountActivaPlus",
+      "Priority eligibility for ActivaMiles",
+      "Luxury and high-end services"
+    ],
+    "notes": "Designed for premium members seeking exclusive access to high-end services, travel perks, and elite discounts."
+  },
+  {
+    "id": 3,
+    "type": "Discount Programs",
+    "slug": "discount-programs",
+    "caption": "Enjoy up to 30% off on products and services from hundreds of registered partners: DiscountActiva: Available for Classic and Premium members.",
+    "programs": [
+      {
+        "name": "DiscountActiva",
+        "description": "Standard discount program for registered members based on card level."
+      },
+      {
+        "name": "DiscountActivaPlus",
+        "description": "Exclusive to high-end members and participating luxury brands, boutiques, and services."
+      }
+    ],
+    "merchant_requirement": "All participating stores, boutiques, airlines, and service providers must register under either DiscountActiva or DiscountActivaPlus based on their offerings."
+  },
+  {
+    "id": 4,
+    "type": "ActivaMiles",
+    "slug": "activa-miles",
+    "caption": "Every time you use an Activa partner service, you earn ActivaMiles. Redeem your miles for: Flight tickets and luxury travel, Cruise ship vacations.",
+    "description": "Loyalty reward system for all Activa members.",
+    "redeemable_for": [
+      "Airline tickets",
+      "Cruise ship travel",
+      "Executive car rides",
+      "Luxury bus service"
+    ]
+  }
+]
